@@ -49,7 +49,7 @@ function no3(){
     // Ask the user for their consent to share their personal information
     if (confirm("Do you agree to share your personal information with our site?")) {
     // Display the information
-    console.log("Name: " + nickname + "<br>Height: " + feet + "'" + inches + "\"" + "<br>Weight: " + pounds.toFixed(3) + " lbs");
+    console.log("Name: " + nickname + "\nHeight: " + feet + "'" + inches + "\"" + "\nWeight: " + pounds.toFixed(3) + " lbs");
     } else {
    console.log("User does not wish to share his/her information.");
     }
