@@ -49,8 +49,8 @@ function no3(){
     // Ask the user for their consent to share their personal information
     if (confirm("Do you agree to share your personal information with our site?")) {
     // Display the information
-    document.getElementById("output2").innerHTML = "Name: " + nickname + "<br>Height: " + feet + "'" + inches + "\"" + "<br>Weight: " + pounds.toFixed(3) + " lbs";
+    console.log("output2").innerHTML = "Name: " + nickname + "<br>Height: " + feet + "'" + inches + "\"" + "<br>Weight: " + pounds.toFixed(3) + " lbs";
     } else {
-    document.getElementById("output2").innerHTML = "User does not wish to share his/her information.";
+   console.log("output2").innerHTML = "User does not wish to share his/her information.";
     }
 }
